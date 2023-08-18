@@ -1,16 +1,15 @@
 #include "main.h"
 
 /**
- * print_numbers - print numbers from 0 to 9
- * Return: always 0
+ * print_numbers- a function that prints the numbers, from 0 to 9
+ *
+ * Return: print to stdout the alphabet, in lowercase, followed by a new line.
  */
 void print_numbers(void)
 {
-	char c;
+	int i;
 
-	for c (c = "0"; c <= "9"; c++)
-	{
-		_putchar(c);
-	}
-	_putchar("\n");
+	for (i = 0; i <= 9; i++)
+		_putchar(i);
+	_putchar('\n');
 }		

@@ -8,12 +8,12 @@
 
 void print_square(int size)
 {
-	int l, c;
+	int i, c;
 
 	if (size <= 0)
 		_putchar('\n');
 
-	for (l = 0; l < size; i++)
+	for (i = 0; i < size; i++)
 	{
 		for (c = 0; c < size; c++)
 		{
