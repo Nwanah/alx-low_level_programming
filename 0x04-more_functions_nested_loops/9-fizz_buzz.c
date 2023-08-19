@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - Fizz Buzz test
+ * main - Fizz-Buzz test
  *
  * print_numbers - A program that prints the numbers from 1 to 100, followed by a new line.
  * for multiples of three print Fizz instead of the number.
@@ -26,7 +26,7 @@ int main(void)
 			printf("FizzBuzz");
 		else
 			printf("%d", i);
-	       	if (i <= 100)
+	       	if (i < 100)
 			printf(" ");
 	}
 	printf("\n");
