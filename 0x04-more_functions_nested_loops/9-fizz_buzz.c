@@ -12,7 +12,6 @@
  * Return: returns 0
  */
 
-
 int main(void)
 {
 	int i;
@@ -31,5 +30,6 @@ int main(void)
 			printf("%d ", i);
 	}
 	printf("\n");
+
 	return (0);
 }
