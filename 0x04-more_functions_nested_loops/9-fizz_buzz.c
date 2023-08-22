@@ -1,15 +1,9 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * main - Fizz-Buzz test
- * 
- * print_numbers - A program that prints the numbers from 1 to 100, followed by a new line.
- * for multiples of three print Fizz instead of the number.
- * for the multiples of five print Buzz.
- * for numbers which are multiples of both three and five print FizzBuzz.
+ * main - Fizz Buzz
  *
- * Return: returns 0
+ * Return: 0
  */
 
 int main(void)
@@ -30,6 +24,5 @@ int main(void)
 			printf("%d ", i);
 	}
 	printf("\n");
-
 	return (0);
 }
